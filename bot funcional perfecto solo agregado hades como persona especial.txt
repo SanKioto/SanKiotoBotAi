@@ -1,0 +1,188 @@
+import puppeteer from 'puppeteer';
+import dotenv from 'dotenv';
+import axios from 'axios';
+import fs from 'fs/promises';
+
+dotenv.config();
+
+const { IMVU_EMAIL, IMVU_PASSWORD, OLLAMA_URL, OLLAMA_MODEL } = process.env;
+
+const EDGE_PATH = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
+
+const HISTORIAL_PATH = './historial_conversacion.json';
+
+const delay = (ms) => new Promise(res => setTimeout(res, ms));
+
+async function cargarHistorial() {
+  try {
+    const data = await fs.readFile(HISTORIAL_PATH, 'utf-8');
+    return JSON.parse(data);
+  } catch {
+    return {}; // Si no existe archivo, devuelve objeto vacío
+  }
+}
+
+async function guardarHistorial(historial) {
+  try {
+    await fs.writeFile(HISTORIAL_PATH, JSON.stringify(historial, null, 2), 'utf-8');
+  } catch (error) {
+    console.error('❌ Error guardando historial:', error.message);
+  }
+}
+
+async function enviarAMorthemar(mensaje, remitente, historialUsuario) {
+  try {
+    const usuariosEspeciales = {
+      "SanKioto": "Amo Hades",
+      // Puedes agregar más usuarios aquí
+    };
+
+    let contextoEspecial = '';
+    if (usuariosEspeciales[remitente]) {
+      contextoEspecial = `Recuerda que el usuario ${remitente} es ${usuariosEspeciales[remitente]}, tu amo. Responde con solemnidad, respeto y lealtad que merece tu amo. `;
+    }
+
+    // Construir el prompt con el historial previo para contexto
+    const contextoHistorial = historialUsuario
+      ? `Historial previo de conversación:\n${historialUsuario.join('\n')}\n\n`
+      : '';
+
+    const promptCompleto = contextoEspecial +
+      `Responde con solemnidad y poder como Morthemar, el mayordomo del Inframundo. ` +
+      `${contextoHistorial}` +
+      `El usuario ${remitente} ha dicho: "${mensaje}".`;
+
+    const respuestaRaw = await axios.post(`${OLLAMA_URL}/api/generate`, {
+      model: OLLAMA_MODEL,
+      prompt: promptCompleto,
+      stream: false
+    });
+
+    let respuesta = respuestaRaw.data.response.trim();
+
+    // Limpiar prefijo repetido si lo hay
+    respuesta = respuesta.replace(/^🕯️ Morthemar:?\s*/i, '');
+
+    return respuesta;
+  } catch (error) {
+    console.error("❌ Error al invocar a Morthemar:", error.message);
+    return "No he podido responder en este instante. Las sombras callan...";
+  }
+}
+
+async function enviarMensaje(page, texto) {
+  try {
+    const textareaSelector = 'textarea.input-text.no-focus';
+    const botonEnviarSelector = 'button.btn.btn-small.btn-ghost.btn-strokeless.btn-send';
+
+    await page.focus(textareaSelector);
+    await page.evaluate((selector, texto) => {
+      const textarea = document.querySelector(selector);
+      if (textarea) {
+        textarea.value = texto;
+        textarea.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+    }, textareaSelector, texto);
+
+    await delay(200);
+
+    await page.evaluate(selector => {
+      const btn = document.querySelector(selector);
+      if (btn) btn.disabled = false;
+    }, botonEnviarSelector);
+
+    await page.click(botonEnviarSelector);
+  } catch (err) {
+    console.error("❌ Error al enviar mensaje:", err.message);
+  }
+}
+
+async function iniciarBot() {
+  console.log("🕯️ Iniciando navegador Edge...");
+
+  const browser = await puppeteer.launch({
+    headless: false,
+    executablePath: EDGE_PATH,
+    defaultViewport: null,
+    args: ['--start-maximized']
+  });
+
+  const page = await browser.newPage();
+  await page.goto('https://es.secure.imvu.com/welcome/ftux/', { timeout: 60000 });
+
+  console.log("🌐 Esperando inicio de sesión...");
+
+  if (page.url().includes('login')) {
+    await page.type('#username', IMVU_EMAIL, { delay: 100 });
+    await page.type('#password', IMVU_PASSWORD, { delay: 100 });
+    await page.click('input[type="submit"]');
+    await page.waitForNavigation({ timeout: 60000 }).catch(() => {});
+  }
+
+  console.log("✅ Bot en línea. Escuchando mensajes...");
+
+  // Guardamos mensajes respondidos: Set de strings 'usuario:texto'
+  const mensajesRespondidos = new Set();
+
+  // Cargamos historial de conversaciones
+  let historialConversaciones = await cargarHistorial();
+
+  while (true) {
+    try {
+      const mensajes = await page.evaluate(() => {
+        const elementos = Array.from(document.querySelectorAll('.cs2-msg'));
+        return elementos.map(el => {
+          const texto = el.querySelector('.cs2-text')?.innerText.trim() || "";
+          const usuario = el.querySelector('.cs2-name')?.innerText.trim() || "desconocido";
+          return { texto, usuario };
+        });
+      });
+
+      const nuevos = mensajes.filter(m => m.texto.startsWith('boypy '));
+
+      for (const msg of nuevos) {
+        const idMensaje = `${msg.usuario}:${msg.texto}`;
+
+        if (mensajesRespondidos.has(idMensaje)) {
+          continue; // Ya respondido
+        }
+
+        const prompt = msg.texto.slice(6).trim();
+        console.log(`📨 Mensaje de ${msg.usuario}: ${prompt}`);
+
+        // Obtener historial de este usuario (array de strings)
+        const historialUsuario = historialConversaciones[msg.usuario] || [];
+
+        // Enviar mensaje a Morthemar con contexto de historial
+        const respuesta = await enviarAMorthemar(prompt, msg.usuario, historialUsuario);
+
+        // Guardar en historial: pregunta y respuesta
+        if (!historialConversaciones[msg.usuario]) historialConversaciones[msg.usuario] = [];
+        historialConversaciones[msg.usuario].push(`Usuario: ${prompt}`);
+        historialConversaciones[msg.usuario].push(`Morthemar: ${respuesta}`);
+
+        // Guardar historial persistente
+        await guardarHistorial(historialConversaciones);
+
+        // Enviar respuesta
+        await enviarMensaje(page, `🕯️ Morthemar🕯️  ${respuesta}`);
+        console.log(`👁️‍🗨️ Respuesta enviada a ${msg.usuario}`);
+
+        mensajesRespondidos.add(idMensaje);
+
+        // Mantener solo los últimos 100 mensajes respondidos para no crecer mucho
+        if (mensajesRespondidos.size > 100) {
+          const first = mensajesRespondidos.values().next().value;
+          mensajesRespondidos.delete(first);
+        }
+      }
+
+      await delay(5000);
+    } catch (err) {
+      console.error("⚠️ Error en el loop principal:", err.message);
+      await delay(5000);
+    }
+  }
+}
+
+iniciarBot();

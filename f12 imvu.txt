@@ -1,0 +1,490 @@
+<div class="slidein-body side-slide-in" style="right: 0px;">
+    <div class="slidein-main"><div class="chat-pane live-audio-phase2">
+    <div class="message-list-wrapper px-10 pb-10 text-left"><div class="cs2-msg is-action flex items-center last-in-series my-user" data-id="https://api.imvu.com/user/user-383682775">
+        <div class="cs2-thumb-wrapper flex-shrink-0 wh-30 rounded-full overflow-hidden mr-10 loaded">
+            <img class="cs2-thumb block wh-full object-cover" src="https://webasset-akm.imvu.com/resized_image/duserimages/s300x300/tmaintain_aspect_ratio/i%2Fuserdata%2Fauto_avpic%2Fimage%2F253793ab1042e82b0474a152b3dd5201.png">
+        </div>
+        <div class="cs2-text text-10 enable-text-selection text-12">tú se ha unido al chat</div>
+    </div></div>
+    <div class="chat-footer">
+        <div class="sticky-chat-message-placeholder"></div>
+        <button class="cs2-scroll-to-latest">
+            Desplácese hasta el último mensaje
+        </button>
+        <div class="input-container"><div class="chat-bar expanding-chat-bar-for-chat-rooms"><div class="menu-bar magic-line-menu">
+    <ul class="menu-tabs"><li class="fade-hover" data-menu="solo_actions">A Solas</li><li class="fade-hover" data-menu="coop_actions">Co-op</li><li class="fade-hover" data-menu="pid_actions">Mis Acciones</li><li class="fade-hover" data-menu="room_actions">Acciones de la Sala</li></ul>
+    <div class="magic-line"></div>
+</div>
+<div class="bar">
+    <div class="relative menu-toggle w-20 h-30 fade-hover">
+        <div class="absolute menu-toggle-collapsed wh-full transiion-opacity duration-150"><svg class="wh-full icon-action_stickers" viewBox="0 0 32 32">
+            <path d="M16.040 0.667c-8.47 0-15.359 6.892-15.359 15.36s6.889 15.36 15.359 15.36c8.47 0 15.36-6.892 15.36-15.36s-6.89-15.36-15.36-15.36v0zM16.040 28.479c-6.866 0-12.452-5.585-12.452-12.452 0-6.866 5.586-12.452 12.452-12.452s12.452 5.586 12.452 12.452c0 6.867-5.586 12.452-12.452 12.452zM21.178 15.484c0.873 0 1.58-0.881 1.58-1.966s-0.707-1.965-1.58-1.965c-0.873 0-1.581 0.879-1.581 1.965s0.708 1.966 1.581 1.966zM10.902 15.484c0.873 0 1.581-0.881 1.581-1.966s-0.708-1.965-1.581-1.965c-0.872 0-1.58 0.879-1.58 1.965s0.708 1.966 1.58 1.966zM16.058 21.733c-2.127 0-4.123-1.044-5.336-2.794l-1.893 1.313c1.645 2.371 4.347 3.785 7.229 3.785 2.853 0 5.54-1.393 7.188-3.727l-1.883-1.33c-1.216 1.724-3.2 2.753-5.306 2.753z"></path>
+        </svg></div>
+        <div class="absolute menu-toggle-expanded wh-full transition-opacity duration-150"><svg class="wh-full icon-dialog_close" viewBox="0 0 32 32">
+            <path d="M15.998 0c-8.822 0-15.998 7.178-15.998 16s7.176 16 15.998 16c8.824 0 16-7.178 16-16s-7.176-16-16-16v0zM29.29 16c0 7.33-5.962 13.291-13.291 13.291-7.328 0-13.291-5.962-13.291-13.291 0-7.328 5.963-13.291 13.291-13.291 7.33 0 13.291 5.963 13.291 13.291zM22.668 10.116c-0.221-0.531-0.742-0.888-1.298-0.888-0.354 0-0.68 0.139-0.942 0.402l-4.43 4.43-4.429-4.43c-0.262-0.262-0.589-0.402-0.942-0.402-0.555 0-1.078 0.357-1.298 0.888-0.211 0.512-0.099 1.054 0.301 1.454l4.429 4.429-4.429 4.43c-0.4 0.398-0.512 0.942-0.301 1.453 0.219 0.531 0.741 0.89 1.298 0.89 0.354 0 0.68-0.139 0.942-0.403l4.429-4.429 4.43 4.429c0.262 0.264 0.589 0.403 0.942 0.403 0.555 0 1.078-0.357 1.298-0.89 0.213-0.51 0.099-1.054-0.301-1.453l-4.429-4.43 4.429-4.429c0.4-0.4 0.514-0.942 0.301-1.454z"></path>
+        </svg></div>
+    </div>
+    <textarea class="input-text no-focus" type="text" placeholder="Di algo..." style="height: 40px;"></textarea>
+    <button class="btn btn-small btn-ghost btn-strokeless btn-send" type="submit" data-room-type="chat" disabled="" style="width: 70px; padding-left: 0px; padding-right: 0px;">Enviar</button>
+</div><div class="chat-bar-menu solo-action-menu" tabindex="-1" data-nodismissonclickinsider="true" data-dismissible="true"><div class="preview" style="display: none;">
+    <div class="cancel">
+        <div class="wh-20"><svg class="wh-full icon-dialog_close" viewBox="0 0 32 32">
+            <path d="M15.998 0c-8.822 0-15.998 7.178-15.998 16s7.176 16 15.998 16c8.824 0 16-7.178 16-16s-7.176-16-16-16v0zM29.29 16c0 7.33-5.962 13.291-13.291 13.291-7.328 0-13.291-5.962-13.291-13.291 0-7.328 5.963-13.291 13.291-13.291 7.33 0 13.291 5.963 13.291 13.291zM22.668 10.116c-0.221-0.531-0.742-0.888-1.298-0.888-0.354 0-0.68 0.139-0.942 0.402l-4.43 4.43-4.429-4.43c-0.262-0.262-0.589-0.402-0.942-0.402-0.555 0-1.078 0.357-1.298 0.888-0.211 0.512-0.099 1.054 0.301 1.454l4.429 4.429-4.429 4.43c-0.4 0.398-0.512 0.942-0.301 1.453 0.219 0.531 0.741 0.89 1.298 0.89 0.354 0 0.68-0.139 0.942-0.403l4.429-4.429 4.43 4.429c0.262 0.264 0.589 0.403 0.942 0.403 0.555 0 1.078-0.357 1.298-0.89 0.213-0.51 0.099-1.054-0.301-1.453l-4.429-4.43 4.429-4.429c0.4-0.4 0.514-0.942 0.301-1.454z"></path>
+        </svg></div>
+    </div>
+</div>
+<div class="catalog-container"><div class="scroll-wrapper action-catalog is-list is-scrollable" style="position: relative;"><ul class="action-catalog is-list is-scrollable scroll-content" style="overflow-y: auto; height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 0px;"><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-clap"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c993-1753501546523">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c993-1753501546523">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c993-1753501546523')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.clap.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c993-1753501546523')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Clap</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-nod"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c996-1753501546524">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c996-1753501546524">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c996-1753501546524')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.nod.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c996-1753501546524')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Nod</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-yay"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c999-1753501546524">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c999-1753501546524">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c999-1753501546524')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.yay.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c999-1753501546524')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Yay</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-smile"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1014-1753501546525">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1014-1753501546525">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1014-1753501546525')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.smile.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1014-1753501546525')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Smile</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-nope"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1023-1753501546525">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1023-1753501546525">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1023-1753501546525')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.nope.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1023-1753501546525')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Nope</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-breakdance"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1065-1753501546526">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1065-1753501546526">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1065-1753501546526')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.breakdance.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1065-1753501546526')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Breakdance</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-kick"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1068-1753501546526">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1068-1753501546526">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1068-1753501546526')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.kick.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1068-1753501546526')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Kick</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-sleep"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1071-1753501546526">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1071-1753501546526">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1071-1753501546526')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.sleep.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1071-1753501546526')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Sleep</span></div></li></ul><div class="scroll-element scroll-x"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div><div class="scroll-element scroll-y"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div></div></div></div><div class="chat-bar-menu coop-action-menu no-partners" tabindex="-1" data-nodismissonclickinsider="true" data-dismissible="true"><div class="preview" style="display: none;">
+    <div class="cancel">
+        <div class="wh-20"><svg class="wh-full icon-dialog_close" viewBox="0 0 32 32">
+            <path d="M15.998 0c-8.822 0-15.998 7.178-15.998 16s7.176 16 15.998 16c8.824 0 16-7.178 16-16s-7.176-16-16-16v0zM29.29 16c0 7.33-5.962 13.291-13.291 13.291-7.328 0-13.291-5.962-13.291-13.291 0-7.328 5.963-13.291 13.291-13.291 7.33 0 13.291 5.963 13.291 13.291zM22.668 10.116c-0.221-0.531-0.742-0.888-1.298-0.888-0.354 0-0.68 0.139-0.942 0.402l-4.43 4.43-4.429-4.43c-0.262-0.262-0.589-0.402-0.942-0.402-0.555 0-1.078 0.357-1.298 0.888-0.211 0.512-0.099 1.054 0.301 1.454l4.429 4.429-4.429 4.43c-0.4 0.398-0.512 0.942-0.301 1.453 0.219 0.531 0.741 0.89 1.298 0.89 0.354 0 0.68-0.139 0.942-0.403l4.429-4.429 4.43 4.429c0.262 0.264 0.589 0.403 0.942 0.403 0.555 0 1.078-0.357 1.298-0.89 0.213-0.51 0.099-1.054-0.301-1.453l-4.429-4.43 4.429-4.429c0.4-0.4 0.514-0.942 0.301-1.454z"></path>
+        </svg></div>
+    </div>
+</div>
+<div class="catalog-container">
+    <div class="no-partner-message notation">No hay compañeros disponibles</div>
+<div class="scroll-wrapper action-catalog is-list is-scrollable" style="position: relative;"><ul class="action-catalog is-list is-scrollable scroll-content" style="overflow-y: auto; height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 0px;"><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-bow"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1110-1753501546534">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1110-1753501546534">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1110-1753501546534')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.bow.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1110-1753501546534')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Bow</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-highfive"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1113-1753501546535">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1113-1753501546535">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1113-1753501546535')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.highfive.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1113-1753501546535')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Hi-5</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-shakehands"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1116-1753501546536">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1116-1753501546536">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1116-1753501546536')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.shakehands.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1116-1753501546536')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Shake</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-bearhug"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1140-1753501546537">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1140-1753501546537">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1140-1753501546537')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.bearhug.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1140-1753501546537')"></rect>
+</svg>
+<div class="shields">
+        <button class="btn requires_friend wh-25 flex items-center justify-center">
+            <div class="wh-20"><svg class="wh-full icon-nav_friends_fill" viewBox="0 0 32 32">
+            <path d="M22.668 23.485v-1.021c2.483-0.987 4.24-3.548 4.24-8.347 0-4.584-3.152-7.547-7.037-7.547-3.887 0-7.039 2.963-7.039 7.547 0 4.877 1.733 7.392 4.24 8.345v1.023h-3.004c-2.871 0.119-5.225 2.643-5.501 5.848h22.607c-0.276-3.205-2.629-5.729-5.501-5.848h-3.004zM13.303 21.249c-1.485-1.691-2.239-4.143-2.239-7.288 0-3.4 1.668-6.227 4.232-7.665-0.873-2.263-2.912-3.629-5.296-3.629-3.176 0-5.752 2.421-5.752 6.168 0 3.987 1.417 6.043 3.467 6.82v1.411h-2.269c-2.413 0-4.415 1.855-4.645 4.207h12.401c0.035-0.005 0.067-0.019 0.101-0.023z"></path>
+        </svg></div>
+        </button>
+</div>
+<div class="title"><span class="name">BearHug</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-auntiehug"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1143-1753501546537">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1143-1753501546537">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1143-1753501546537')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.auntiehug.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1143-1753501546537')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Light Hug</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-hug"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1146-1753501546538">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1146-1753501546538">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1146-1753501546538')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.hug.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1146-1753501546538')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Hug</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-blowkiss"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1182-1753501546538">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1182-1753501546538">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1182-1753501546538')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.blowkiss.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1182-1753501546538')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Blow Kiss</span></div></li><li class="catalog-item action-catalog-item" data-id="https://api.imvu.com/action/action-peck"><svg version="1.1" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="invert-action-c1188-1753501546539">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1
+                                                                    0 -1 0 0 1
+                                                                    0 0 -1 0 1
+                                                                    0 0 0 1 0"></feColorMatrix>
+        </filter>
+        <mask id="masked-action-c1188-1753501546539">
+            <image src="" width="100%" height="100%" filter="url('#invert-action-c1188-1753501546539')" xlink:href="https://webasset-akm.imvu.com/resized_image/dstaticfiles/tmaintain_aspect_ratio/i%2Fimvufiles%2Factions%2Faction.peck.png"></image>
+        </mask>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="#000" mask="url('#masked-action-c1188-1753501546539')"></rect>
+</svg>
+<div class="shields">
+</div>
+<div class="title"><span class="name">Cheek Kiss</span></div></li><li class="catalog-item action-catalog-item" style="display: none;"></li></ul><div class="scroll-element scroll-x"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div><div class="scroll-element scroll-y"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div></div></div></div><div class="chat-bar-menu pid-action-menu" tabindex="-1" data-nodismissonclickinsider="true" data-dismissible="true"><div class="preview" style="display: none;">
+    <div class="cancel">
+        <div class="wh-20"><svg class="wh-full icon-dialog_close" viewBox="0 0 32 32">
+            <path d="M15.998 0c-8.822 0-15.998 7.178-15.998 16s7.176 16 15.998 16c8.824 0 16-7.178 16-16s-7.176-16-16-16v0zM29.29 16c0 7.33-5.962 13.291-13.291 13.291-7.328 0-13.291-5.962-13.291-13.291 0-7.328 5.963-13.291 13.291-13.291 7.33 0 13.291 5.963 13.291 13.291zM22.668 10.116c-0.221-0.531-0.742-0.888-1.298-0.888-0.354 0-0.68 0.139-0.942 0.402l-4.43 4.43-4.429-4.43c-0.262-0.262-0.589-0.402-0.942-0.402-0.555 0-1.078 0.357-1.298 0.888-0.211 0.512-0.099 1.054 0.301 1.454l4.429 4.429-4.429 4.43c-0.4 0.398-0.512 0.942-0.301 1.453 0.219 0.531 0.741 0.89 1.298 0.89 0.354 0 0.68-0.139 0.942-0.403l4.429-4.429 4.43 4.429c0.262 0.264 0.589 0.403 0.942 0.403 0.555 0 1.078-0.357 1.298-0.89 0.213-0.51 0.099-1.054-0.301-1.453l-4.429-4.43 4.429-4.429c0.4-0.4 0.514-0.942 0.301-1.454z"></path>
+        </svg></div>
+    </div>
+</div>
+<div class="catalog-container"><div class="scroll-wrapper pid-product-catalog is-list is-scrollable" style="position: relative;"><ul class="pid-product-catalog is-list is-scrollable scroll-content" style="height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 0px;"><li class="catalog-item pid-product-catalog-item"><div class="product-item">
+    <div class="product-arrow">
+        <svg class="arrow" viewBox="0 0 10 10" preserveAspectRatio="none">
+            <polygon points="0,0 10,0 5,10"></polygon>
+        </svg>
+    </div>
+    <div class="title"><span class="product">Male avatar</span></div>
+    <div class="shields">
+    </div>
+</div>
+<ul class="pid-action-catalog is-list"><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="191:blink"><div class="title"><span class="trigger">blink</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="191:wave"><div class="title"><span class="trigger">wave</span></div>
+</li></ul></li></ul><div class="scroll-element scroll-x"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div><div class="scroll-element scroll-y"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div></div></div></div><div class="chat-bar-menu pid-action-menu" tabindex="-1" data-nodismissonclickinsider="true" data-dismissible="true"><div class="preview" style="display: none;">
+    <div class="cancel">
+        <div class="wh-20"><svg class="wh-full icon-dialog_close" viewBox="0 0 32 32">
+            <path d="M15.998 0c-8.822 0-15.998 7.178-15.998 16s7.176 16 15.998 16c8.824 0 16-7.178 16-16s-7.176-16-16-16v0zM29.29 16c0 7.33-5.962 13.291-13.291 13.291-7.328 0-13.291-5.962-13.291-13.291 0-7.328 5.963-13.291 13.291-13.291 7.33 0 13.291 5.963 13.291 13.291zM22.668 10.116c-0.221-0.531-0.742-0.888-1.298-0.888-0.354 0-0.68 0.139-0.942 0.402l-4.43 4.43-4.429-4.43c-0.262-0.262-0.589-0.402-0.942-0.402-0.555 0-1.078 0.357-1.298 0.888-0.211 0.512-0.099 1.054 0.301 1.454l4.429 4.429-4.429 4.43c-0.4 0.398-0.512 0.942-0.301 1.453 0.219 0.531 0.741 0.89 1.298 0.89 0.354 0 0.68-0.139 0.942-0.403l4.429-4.429 4.43 4.429c0.262 0.264 0.589 0.403 0.942 0.403 0.555 0 1.078-0.357 1.298-0.89 0.213-0.51 0.099-1.054-0.301-1.453l-4.429-4.43 4.429-4.429c0.4-0.4 0.514-0.942 0.301-1.454z"></path>
+        </svg></div>
+    </div>
+</div>
+<div class="catalog-container"><div class="scroll-wrapper pid-product-catalog is-list is-scrollable" style="position: relative;"><ul class="pid-product-catalog is-list is-scrollable scroll-content" style="height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 0px;"><li class="catalog-item pid-product-catalog-item"><div class="product-item">
+    <div class="product-arrow">
+        <svg class="arrow" viewBox="0 0 10 10" preserveAspectRatio="none">
+            <polygon points="0,0 10,0 5,10"></polygon>
+        </svg>
+    </div>
+    <div class="title"><span class="product">[SaT]Guard II</span></div>
+    <div class="shields">
+    </div>
+</div>
+<ul class="pid-action-catalog is-list"><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:good"><div class="title"><span class="trigger">good</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:hello"><div class="title"><span class="trigger">hello</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:hi"><div class="title"><span class="trigger">hi</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:kneel"><div class="title"><span class="trigger">kneel</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:no"><div class="title"><span class="trigger">no</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:nod"><div class="title"><span class="trigger">nod</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:wave"><div class="title"><span class="trigger">wave</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:yay"><div class="title"><span class="trigger">yay</span></div>
+</li><li class="catalog-item pid-action-catalog-item disable-text-selection" data-id="8645982:yes"><div class="title"><span class="trigger">yes</span></div>
+</li></ul></li></ul><div class="scroll-element scroll-x"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div><div class="scroll-element scroll-y"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar"></div></div></div></div></div></div></div></div>
+    </div>
+<menu class="cs2-toggle"><li class="cs2-toggle__item is-active">
+  <button class="cs2-toggle__button cs2-toggle__all">
+    All Messages
+  </button>
+</li>
+<li class="cs2-toggle__item">
+  <button class="cs2-toggle__button cs2-toggle__whispers">
+    Whispers
+  </button>
+</li>
+
+</menu></div>
+
+<div class="cs2-vip-badge-template" style="display:none;">
+    <div class="cs2-badge cs2-vip-badge inline-block">
+        <svg viewBox="0 0 18 18">
+            <g fill="none" fill-rule="evenodd">
+                <ellipse fill="#DEB359" cx="9" cy="9" rx="9" ry="9"></ellipse>
+                <path d="M14.87 7.303a.723.723 0 1 0-1.247.497l-2.027 1.992a.138.138 0 0 1-.222-.042L9.407 5.283a.72.72 0 0 0-.39-1.33.723.723 0 0 0-.394 1.33L6.656 9.75a.138.138 0 0 1-.222.042L4.39 7.784a.72.72 0 0 0-.537-1.204.72.72 0 1 0-.073 1.44c.114.95.633 5.27.646 5.286.18.414 2.163.74 4.59.74 2.426 0 4.41-.326 4.59-.74.01-.017.53-4.346.644-5.29a.72.72 0 0 0 .62-.713" fill="#FFF"></path>
+            </g>
+        </svg>
+    </div>
+</div>
+
+<div class="cs2-creator-pro-badge-template" style="display:none;">
+    <div class="cs2-badge cs2-creator-pro-badge inline-block">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 19">
+            <path fill="#E1E1E1" d="M9.735 9.679l5.174-2.964s.096.049.09.221c-.003.139-.001 3.804 0 5.209a.946.946 0 01-.468.817l-.44.257-.534.312-.594.347-.619.36-.612.356-.572.33-.496.281c-.128.072-.257.146-.387.216l-.125.068c-.085.045-.16.088-.257.1-.051.008-.104.015-.156.018L9.735 9.68z"></path>
+            <path fill="#fff" d="M9.507 9.273L4.335 6.308s-.006-.106.147-.189c.123-.066 3.322-1.9 4.549-2.602a.957.957 0 01.947-.006c.148.083.297.166.443.25l.54.302c.199.113.4.224.6.337.207.117.415.236.624.353l.615.348c.19.108.382.217.572.327l.495.285c.128.074.255.15.381.225l.122.073c.083.05.155.094.215.171.031.041.063.08.094.124L9.507 9.273z"></path>
+            <path fill="#F4F4F4" d="M9.29 9.666l.005 5.927s-.09.057-.237-.032c-.12-.072-3.322-1.9-4.55-2.6a.95.95 0 01-.479-.813l-.005-.506-.006-.614-.005-.683-.006-.713c-.002-.235-.003-.469-.003-.704C4.002 8.71 4 8.492 4 8.273c0-.189 0-.38.002-.568 0-.147.002-.294.005-.44 0-.047.002-.093.004-.14.003-.097.002-.181.04-.271l.061-.142L9.29 9.666z"></path>
+        </svg>
+    </div>
+</div>
+
+<div class="cs2-creator-badge-template" style="display:none;">
+    <div class="cs2-badge cs2-creator-badge inline-block">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 19 19">
+            <path fill="#DCC0FF" d="M9.735 9.679l5.174-2.964s.096.049.09.221c-.003.139-.001 3.804 0 5.209a.946.946 0 01-.468.817l-.44.257-.534.312-.594.347-.619.36-.612.356-.572.33-.496.281c-.128.072-.257.146-.387.216l-.125.068c-.085.045-.16.088-.257.1-.051.008-.104.015-.156.018L9.735 9.68z"></path>
+            <path fill="#FEFCFF" d="M9.507 9.273L4.335 6.308s-.006-.106.147-.189c.123-.066 3.322-1.9 4.549-2.602a.957.957 0 01.947-.006c.148.083.297.166.443.25l.54.302c.199.113.4.224.6.337.207.117.415.236.624.353l.615.348c.19.108.382.217.572.327l.495.285c.128.074.255.15.381.225l.122.073c.083.05.155.094.215.171.031.041.063.08.094.124L9.507 9.273z"></path>
+            <path fill="#F6EBFF" d="M9.29 9.666l.005 5.927s-.09.057-.237-.032c-.12-.072-3.322-1.9-4.55-2.6a.95.95 0 01-.479-.813l-.005-.506-.006-.614-.005-.683-.006-.713c-.002-.235-.003-.469-.003-.704C4.002 8.71 4 8.492 4 8.273c0-.189 0-.38.002-.568 0-.147.002-.294.005-.44 0-.047.002-.093.004-.14.003-.097.002-.181.04-.271l.061-.142L9.29 9.666z"></path>
+        </svg>
+    </div>
+</div>
+
+<div class="cs2-msg-template" style="display:none;">
+    <div class="cs2-msg flex items-end">
+        <div class="cs2-thumb-wrapper flex-shrink-0 wh-30 rounded-full overflow-hidden mr-10">
+            <img class="cs2-thumb block wh-full object-cover">
+            <div class="gold-frame"></div>
+        </div>
+        <div class="cs2-name-bubble-wrapper">
+            <div class="cs2-name-wrapper flex text-10">
+                <div class="cs2-name inline-block metropolis-semibold enable-text-selection is-truncated"></div>
+            </div>
+            <div class="cs2-bubble-row flex">
+                <div class="cs2-moderation-icon"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="icon-message-moderated">
+            <path d="M10 2C5.584 2 2 5.584 2 10C2 14.416 5.584 18 10 18C14.416 18 18 14.416 18 10C18 5.584 14.416 2 10 2ZM10.8 14H9.2V12.4H10.8V14ZM10.8 10.8H9.2V6H10.8V10.8Z" fill="#A8A8A8"></path>
+        </svg></div>
+                <div class="cs2-bubble relative inline-block">
+                    <div class="cs2-shape"></div>
+                    <div class="cs2-border"></div>
+                    <div class="cs2-text enable-text-selection"></div>
+                    <div class="cs2-icon-wrapper"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" class="icon-reply_from_whisper">
+            <circle cx="11" cy="11" r="11" fill="white"></circle>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.50482 10.8144L10.2496 5.06965C10.3243 4.99496 10.4371 4.97251 10.5342 5.01324C10.6319 5.05346 10.6956 5.14851 10.6956 5.25452V8.4554C14.5101 8.60319 17.5715 11.7565 17.5715 15.604V15.8567C17.5715 15.9664 17.5031 16.0641 17.3997 16.1022C17.2989 16.1398 17.1825 16.1095 17.1114 16.0259C15.7865 14.4634 13.8636 13.5672 11.8377 13.5672H11.2622C11.0862 13.5672 10.9024 13.5766 10.6956 13.5954V16.744C10.6956 16.8495 10.6319 16.9446 10.5342 16.9848C10.5023 16.9984 10.4679 17.0052 10.4345 17.0052C10.3671 17.0052 10.2997 16.9785 10.2496 16.9284L4.50482 11.1836C4.40298 11.0818 4.40298 10.9162 4.50482 10.8144Z" fill="#404040"></path>
+        </svg></div>
+                </div>
+            </div>
+        </div>
+        <div class="hover-on-normal-message">susurro</div>
+    </div>
+    
+</div>
+
+<div class="cs2-action-template" style="display:none;">
+    <div class="cs2-msg is-action flex items-center">
+        <div class="cs2-thumb-wrapper flex-shrink-0 wh-30 rounded-full overflow-hidden mr-10">
+            <img class="cs2-thumb block wh-full object-cover">
+        </div>
+        <div class="cs2-text text-10 enable-text-selection"></div>
+    </div>
+</div>
+
+<div class="cs2-session-products-template" style="display:none;">
+    <button class="cs2-session-products btn btn-primary">Productos de ésta sesión</button>
+</div>
+
+<template class="cs2-speaker-badge-template">
+    <div class="speaker-indicator">
+        <div class="speaker-indicator-icon-container">
+            <span class="speaker-indicator-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="icon-mic-unmuted">
+            <path d="M18.4187 11.9346C18.4187 15.5653 15.5635 18.5086 12.0415 18.5086C8.51941 18.5086 5.66422 15.5653 5.66422 11.9346" stroke="#404040" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M12.0414 18.5098V21.8907" stroke="#404040" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M8.66052 21.8906H15.4223" stroke="#404040" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect x="8.51239" y="2.02734" width="7.05764" height="13.5236" rx="3.52882" stroke="#404040" stroke-width="1.5"></rect>
+        </svg>
+            </span>
+        </div>
+    </div>
+</template>
+
+<template class="cs2-hashtag-indicator-template">
+    <svg class="wh-10 hashtag-indicator icon-uikit_hashtag" width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <rect x="0.5" y="0.5" width="19" height="19" rx="9.5" fill="url(#icon-uikit_hashtag-paint0_linear_2157_6296)"></rect>
+            <rect x="0.5" y="0.5" width="19" height="19" rx="9.5" stroke="#1A1A1A"></rect>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.22163 5.00874C9.48237 5.05888 9.6531 5.3109 9.60295 5.57164L9.21148 7.60729H12.0562L12.4826 5.39006C12.5328 5.12932 12.7848 4.9586 13.0455 5.00874C13.3063 5.05888 13.477 5.3109 13.4269 5.57164L13.0354 7.60729H14.5191C14.7846 7.60729 14.9998 7.82253 14.9998 8.08805C14.9998 8.35357 14.7846 8.56881 14.5191 8.56881H12.8505L12.3 11.4312H14.5191C14.7846 11.4312 14.9998 11.6464 14.9998 11.9119C14.9998 12.1775 14.7846 12.3927 14.5191 12.3927H12.1151L11.6887 14.6099C11.6386 14.8707 11.3866 15.0414 11.1258 14.9913C10.8651 14.9411 10.6944 14.6891 10.7445 14.4284L11.136 12.3927H8.29121L7.86482 14.6099C7.81468 14.8707 7.56266 15.0414 7.30192 14.9913C7.04118 14.9411 6.87046 14.6891 6.9206 14.4284L7.31207 12.3927H5.48076C5.21524 12.3927 5 12.1775 5 11.9119C5 11.6464 5.21524 11.4312 5.48076 11.4312H7.49698L8.04744 8.56881H5.48076C5.21524 8.56881 5 8.35357 5 8.08805C5 7.82253 5.21524 7.60729 5.48076 7.60729H8.23234L8.65873 5.39006C8.70888 5.12932 8.9609 4.9586 9.22163 5.00874ZM9.02657 8.56881L8.47612 11.4312H11.3209L11.8713 8.56881H9.02657Z" fill="#F2F2F2"></path>
+        </svg>
+</template>
+
+
+<template class="cs2-live-chat-hashtag-me-join-message-template">
+    People have <span class="common-hashtags-list label-m"><!--hashtags here--></span> on their profile cards.
+</template>
+
+<template class="cs2-user-joined-the-chat-common-hashtags-template">
+     <span class="common-hashtags-user label-s"><!---displayName---></span> joined the chat.. They have <span class="common-hashtags-list label-m"><!--hashtags--></span> on their profile cards. 
+</template>
+
+<template class="cs2-common-hashtag-status-template">
+    <span class="common-hashtags-user label-s"><!--displayName--></span> has <span class="common-hashtags-list label-m"><!--hashtags--></span> on their profile card
+</template>
+
+<template class="cs2-other-user-joined-hashtag-message-template">
+    <span class="common-hashtags-user label-s"><!--displayName--></span> joined the chat.
+</template>
+
+<template class="cs2-multiple-user-with-multiple-common-hashtags-template">
+  <span class="cs2-hashtag-user-name"><!--user_name--></span>  y  <span class="cs2-hashtag-other-user"><!--other_user_names--></span> have <span class="common-hashtags-list label-m"><!--hashtags--></span> on their profile cards.
+</template>
+</div>
+    <div class="resize-handle">
+        <svg width="5" height="24" viewBox="0 0 5 24" fill="none" class="icon-uikit_chat_controller">
+            <path d="M1 1V23" stroke="#F2F2F2" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M4 1V23" stroke="#F2F2F2" stroke-width="1.5" stroke-linecap="round"></path>
+        </svg> 
+    </div>
+</div>

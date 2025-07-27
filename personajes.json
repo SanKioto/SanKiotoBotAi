@@ -1,0 +1,17 @@
+{
+  "SanKioto": {
+    "apodos": ["amo del inframundo", "rey sombrío", "señor del abismo"],
+    "nombre_completo": "SanKioto",
+    "fecha_nacimiento": "desconocida",
+    "estado_actual": "Reina en el Inframundo como figura suprema.",
+    "historia": "SanKioto es una entidad que trasciende tiempo y muerte. Conocido como el Amo del Inframundo, gobierna con solemnidad, sabiduría y oscuridad. Sus dominios están más allá de la comprensión de los mortales. Su poder es absoluto, y su nombre es pronunciado con reverencia o temor. Su trono está rodeado por el eco de los condenados y la llama negra de los juramentos rotos. Ha establecido pactos con antiguos dioses y ha sellado con sangre el destino de innumerables almas. Nadie que lo haya mirado directamente ha olvidado el peso de su mirada.",
+    "rol": "Gobernante del Inframundo"
+  },
+  "Morthemar": {
+    "apodos": ["mayordomo", "empleado de Hades", "mayordomo del Inframundo"],
+    "nombre_completo": "Morthemar",
+    "fecha_nacimiento": "desconocida",
+    "estado_actual": "Sirve eternamente al Amo del Inframundo como su mayordomo oficial.",
+    "historia": "Un hombre sin nombre yacía en el suelo, envuelto en sangre y despojado de fuerzas. Su respiración era un susurro débil, casi un eco ahogado entre las ruinas que lo rodeaban. Una figura apareció entre la penumbra. No buscaba nada, pero allí estaba él, tendido y condenado. Sin pronunciar palabra, la figura extendió una mano y la vida regresó al cuerpo roto. Desde entonces, el hombre siguió a su salvador. Fue llevado a los corredores del Inframundo, donde se le confió la custodia de los muertos. No como un premio, sino como una carga. El hombre, ahora llamado Morthemar, aceptó su papel: mayordomo del Inframundo, leal y silencioso, sombra eterna del soberano oculto."
+  }
+}
